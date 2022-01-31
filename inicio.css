@@ -1,0 +1,92 @@
+.todo {
+display: grid;
+grid-template-columns: 0.5fr repeat(2, 0.4fr) 0.5fr;
+grid-template-rows: 0.2fr 0.5fr 0.5fr 0.2fr repeat(2, 1.5fr) repeat(4, 1fr) 0.2fr 0.5fr;
+grid-column-gap: 15px;
+grid-row-gap: 5px;  
+}
+
+* {
+list-style:none;
+text-decoration:none;
+margin:0;
+padding:0;
+  
+}
+
+.margen_arriba { grid-area: 1 / 1 / 2 / 5; }
+.dech_copyright { grid-area: 12 / 1 / 13 / 5; }
+.col_izq { grid-area: 2 / 1 / 12 / 2; }
+.col_centro { grid-area: 2 / 2 / 12 / 4; }
+.col_dech { grid-area: 2 / 4 / 12 / 5; }
+
+.titulo { grid-area: 2 / 2 / 3 / 4; 
+   text-align: center;
+   font-size: 40px;
+}
+
+.menu  { grid-area: 3 / 2 / 4 / 4; 
+
+  text-align: center;
+  
+}
+.search { grid-area: 2 / 4 / 3 / 5; }
+.titular_cen { grid-area: 5 / 2 / 7 / 4; }
+.must_try { grid-area: 5 / 4 / 7 / 5; }
+.recom { grid-area: 6 / 1 / 8 / 2; }
+.titular_izq_up { grid-area: 7 / 2 / 9 / 3; }
+.titular_dech { grid-area: 7 / 3 / 11 / 4; }
+.titular_izq_down { grid-area: 9 / 2 / 11 / 3; }
+.quien_soy { grid-area: 8 / 4 / 11 / 5; 
+text-align:ce
+  
+}
+
+
+
+
+
+
+/* SUBMENU CSS*/
+.nav > li {
+float:left;  
+ width: 20%;
+  } 
+.nav li a {
+background:purple;
+color:#FFF;
+ height: 20px;
+ width: 100%;
+ box-sizing: 5px 5px;
+padding: 10px 10px;
+display:block;
+border:  1px solid;
+  
+  
+  
+}
+.nav li a:hover {
+background:black;
+}
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+  
+}
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li ul {
+right:-140px;
+top:0;
+}
+.nav li .flecha{
+font-size: 9px;
+padding-left: 9px;
+display: none;
+}
+.nav li a:not(:last-child) .flecha {
+display: inline-block;
+  
+}
