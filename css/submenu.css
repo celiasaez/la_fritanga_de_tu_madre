@@ -1,0 +1,45 @@
+
+
+/* SUBMENU CSS*/
+.nav > li {
+float:left;  
+ width: 20%;
+  } 
+.nav li a {
+background:purple;
+color:#FFF;
+ height: 20px;
+ width: 100%;
+ box-sizing: 5px 5px;
+padding: 10px 10px;
+display:block;
+border:  1px solid;
+  
+  
+  
+}
+.nav li a:hover {
+background:black;
+}
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+  
+}
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li ul {
+right:-140px;
+top:0;
+}
+.nav li .flecha{
+font-size: 9px;
+padding-left: 9px;
+display: none;
+}
+.nav li a:not(:last-child) .flecha {
+display: inline-block;
+  
+}
