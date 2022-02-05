@@ -1,0 +1,23 @@
+.img_art_central {
+	float:left;
+}
+
+.text_quien {
+	padding-left:50px;
+	padding-right:50px;
+	font-size:25px;
+}
+
+.text_quien_2 {
+	padding-left:50px;
+	padding-right:50px;
+	font-size:15px;
+}
+
+.center {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}

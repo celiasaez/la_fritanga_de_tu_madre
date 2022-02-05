@@ -23,21 +23,27 @@ padding:0;
 .titulo { grid-area: 2 / 2 / 3 / 4; 
    text-align: center;
    font-size: 40px;
+   background:green;
+   padding: 30px;
 }
 
 .menu  { grid-area: 3 / 2 / 4 / 4; 
-
   text-align: center;
-  
+ 
 }
 .search { grid-area: 2 / 4 / 3 / 5; }
-.titular_cen { grid-area: 5 / 2 / 7 / 4; }
+.titular_cen { grid-area: 5 / 2 / 7 / 4; 
+
+background:green;
+padding: 40px;
+}
 
 .must_try { grid-area: 5 / 4 / 7 / 5;
 text-align:center;
   border: 1px solid #4CAF50;
   background:purple;
-  width: 300px; }
+  width: 300px;
+height:300px;  }
   
   
 .recom { grid-area: 6 / 1 / 8 / 2;
@@ -46,10 +52,17 @@ text-align:center;
   border: 1px solid #4CAF50;
   background:purple;
   width: 300px; 
+  margin-left: 100px;
   }
-.titular_izq_up { grid-area: 7 / 2 / 9 / 3; }
-.titular_dech { grid-area: 7 / 3 / 11 / 4; }
-.titular_izq_down { grid-area: 9 / 2 / 11 / 3; }
+.titular_izq_up { grid-area: 7 / 2 / 9 / 3; 
+background:green;}
+.titular_dech { grid-area: 7 / 3 / 11 / 4; 
+margin-top: auto;
+margin-bottom: auto;
+background:pink;
+}
+.titular_izq_down { grid-area: 9 / 2 / 11 / 3; 
+background:green;}
 .quien_soy { grid-area: 8 / 4 / 11 / 5; 
 	text-align:center;
   border: 1px solid #4CAF50;
