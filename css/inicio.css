@@ -32,12 +32,21 @@ padding:0;
 }
 .search { grid-area: 2 / 4 / 3 / 5; }
 .titular_cen { grid-area: 5 / 2 / 7 / 4; }
+
 .must_try { grid-area: 5 / 4 / 7 / 5;
 text-align:center;
   border: 1px solid #4CAF50;
   background:purple;
   width: 300px; }
-.recom { grid-area: 6 / 1 / 8 / 2; }
+  
+  
+.recom { grid-area: 6 / 1 / 8 / 2;
+
+text-align:center;
+  border: 1px solid #4CAF50;
+  background:purple;
+  width: 300px; 
+  }
 .titular_izq_up { grid-area: 7 / 2 / 9 / 3; }
 .titular_dech { grid-area: 7 / 3 / 11 / 4; }
 .titular_izq_down { grid-area: 9 / 2 / 11 / 3; }
