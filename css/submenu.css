@@ -1,23 +1,26 @@
 
 
 /* SUBMENU CSS*/
+
 .nav > li {
 float:left; 
+width:20%;
 
- width: 20%;
   } 
 .nav li a {
+	
 background:purple;
 color:#FFF;
- height: 20px;
+
  width: 100%;
  box-sizing: 5px 5px;
-padding: 10px 10px;
+padding-top: 50px;
+padding-bottom: 50px;
 display:block;
 text-overflow: ellipsis; 
 white-space: nowrap;
  overflow: hidden;
-font-size:15px;
+font-size:25px;
 border:  1px solid;
   
   
@@ -29,19 +32,19 @@ background:black;
 .nav li ul {
 display:none;
 position:absolute;
-min-width:140px;
+min-width:325px;
   
 }
 .nav li:hover > ul {
 display:block;
 }
 .nav li ul li ul {
-right:-140px;
+right:-325px;
 top:0;
 }
 .nav li .flecha{
-font-size: 9px;
-padding-left: 9px;
+font-size: 15px;
+padding-left: 15px;
 display: none;
 }
 .nav li a:not(:last-child) .flecha {
