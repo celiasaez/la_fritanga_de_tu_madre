@@ -1,7 +1,7 @@
 .todo {
 display: grid;
 grid-template-columns: 0.5fr 0.75fr 1fr 0.75fr repeat(2, 0.5fr);
-grid-template-rows: 0.1fr 0.5fr 0.25fr 0.5fr  0.55fr repeat(2, 0.25fr) 0.2fr;
+grid-template-rows: 0.1fr 0.5fr 0.25fr 0.5fr  0.5fr  0.25fr 0.25fr 0.2fr;
 grid-column-gap: 20px;
 grid-row-gap: 5px; 
 background-image: url("https://www.creativefabrica.com/wp-content/uploads/2020/11/01/Fast-Food-Seamless-Pattern-1-Graphics-6399037-1.jpg");
@@ -57,7 +57,7 @@ text-align:center;
   }
   
   
-.recom { grid-area: 5 / 2 / 7 / 3;
+.recom { grid-area: 5 / 2 / 8 / 3;
 
 text-align:center;
   border: 1px solid #4CAF50;
@@ -67,14 +67,21 @@ text-align:center;
   padding:20px;
   
   }
-.titular_izq_up { grid-area: 6 / 3 / 7 / 4;
-background:green;}
+
 .titular_dech { grid-area: 6 / 4 / 8 / 5;
 
 background:pink;
 }
+
 .titular_izq_down { grid-area: 7 / 3 / 8 / 4;
-background:green;}
+background:blue;
+height:100%;}
+
+.titular_izq_up { grid-area: 6 / 3 / 7 / 4;
+height:100%;
+background:green;
+}
+
 
 .quien_soy { grid-area: 6 / 5 / 7 / 6;
 	text-align:center;
